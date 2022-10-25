@@ -1,7 +1,7 @@
 //Author: Sudhakar Gopalrao
 //This is a C program to check the Prime Number using Function
 #include<stdio.h>
-bool isPN(int num); // Function Declertion
+bool isPrimeNumber(int num); // Function Declertion
 int main()  //initialize the main function
 
 {
@@ -18,7 +18,7 @@ int main()  //initialize the main function
 	
 }
 
-bool isPN(int num)
+bool isPrimeNumber(int num)
 {
 		//Logic for Calculating Power of a number
 		for (i = 1; i <= q; i++)
