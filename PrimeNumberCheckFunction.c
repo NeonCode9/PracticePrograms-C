@@ -1,28 +1,34 @@
 //Author: Sudhakar Gopalrao
 //This is a C program to check the Prime Number using Function
 #include<stdio.h>
-bool isPrimeNumber(int num); // Function Declertion
+int isprimeNumber(int num); // Function Declertion
 int main()  //initialize the main function
-
 {
 	//Initialize the variables
-	 int p, q, i, output = 1;
+	 int i, num;
 	//Give option for user to input numerical value
-	printf("Enter The Value for Base:");
+	printf("Enter A Number: ");
 	//Read the input
-	scanf("%d",&p);
-	printf("Enter The Value for Exponent:");
-	//Read the input
-	scanf("%d",&q);
+	scanf("%d",&num);
 	
-	
+	//Main function logic
+	if (isprimeNumber (num))
+		printf("%d is Prime Number\n", num);
+	else
+		printf("%d is Not a Prime Number\n", num);
+		
+	return 0;
 }
 
-bool isPrimeNumber(int num)
+//Sub function
+int isprimeNumber(int num)
 {
 		//Logic for Calculating Power of a number
-		for (i = 1; i <= q; i++)
-		output = output * p;
- 		printf("%d power %d = %d\n", p, q, output);
- 		return 0;
+		int i;
+		for (i = 2; i <  num; i++)
+		{
+			if (num%i == 0)
+				break;
+		}
+
 }
