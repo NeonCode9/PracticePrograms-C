@@ -1,3 +1,5 @@
+//Author: Sudhakar Gopalrao
+//This is a C program to do lot of arithmatic functions
 #include<stdio.h>
 int main() 
 {

@@ -1,3 +1,5 @@
+//Author: Sudhakar Gopalrao
+//This is a C program to find area of circle
 #include<stdio.h>
 int main()
 {
