@@ -5,20 +5,20 @@
 int main()
 {
     //Declare Variable
-    int input, i, rev=0, rem, n; 
+    int input, rev=0, rem, n; 
     //read input number from user
     printf("Enter number: ");
     scanf("%d", &input);
 
     //Reverse number logic & print output///
-    m = n;
-    while (m > 0)
+    n = input;
+    while (n > 0)
     {
-        rem = m % 10;
-        m = m / 10;
+        rem = n % 10;
+        n = n / 10;
         rev = rev * 10 + rem;
     }
     
-    printf("Reverse of %d is %d", n, rev);
+    printf("Reverse of %d is %d", input, rev);
     return (0);
 }
