@@ -5,7 +5,7 @@
 int main()
 {
     //Declare Variable
-    int input, i, a=0, b=1, c; 
+    long int input, i, a=0, b=1, c; 
     //read input number from user
     printf("Enter number(n>2): ");
     scanf("%d", &input);
